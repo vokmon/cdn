@@ -14,6 +14,7 @@ first and the cache forwards the requests to the server. Similarly, the server a
 replies to the clients through the cache.
 
 Part 1
+
 1. The client program should provide an interface that (a) allows the user to display the
 list of files that are available on the server, (b) allows the user to select a file from the
 list of available files to download, and, (c) allows the user to display the contents of
@@ -45,6 +46,7 @@ a file with a given name, and, (b) an operation that lists the names of the file
 available on the server.
 
 Part 2
+
 Modify the implementation of cache and server in part 1 to allow fragments of the files to
 be cached. In your implementation, the fragmentation of the files should be carried out
 automatically. That is, the users do not need to rewrite the files for caching purpose. The
